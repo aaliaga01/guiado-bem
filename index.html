@@ -6,9 +6,47 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ejercicio Guiado BEM</title>
 	<!-- Link archivo css-->
-	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+<!-- menu con las clases BEM -->
+	<header>
+		<ul class="a-menu">
+			<li class="a-menu__item">
+			<a class="a-menu__item__link" href="#">BLOG</a></li>
+			<li class="a-menu__item">
+			<a class="a-menu__item__link" href="#">BLOG</a></li>
+			<li class="a-menu__item">
+			<a class="a-menu__item__link" href="#">BLOG</a></li>
+		</ul>
+	</header>
+
+	<section>
+		<div class="article">
+			<h2 class="article__title">Mermeladas</h2>
+				<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend viverra convallis. In consectetur leo bibendum velit pellentesque facilisis. Maecenas laoreet bibendum lacus, rutrum egestas nisi posuere in. Pellentesque id nisi imperdiet, vehicula libero et, posuere ligula. Vivamus id aliquet eros, eu varius neque. Morbi sed tristique mauris. Sed accumsan semper fermentum. Aenean et lacus feugiat, placerat nisi a, tempor augue.</p>
+				<img class="article__img" src="img/mermeladas pirque.jpg" alt="">
+		</div>
+		
+		<div class="article article--green">
+			<h2 class="article__title">Comida Saludable</h2>
+				<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend viverra convallis. In consectetur leo bibendum velit pellentesque facilisis. Maecenas laoreet bibendum lacus, rutrum egestas nisi posuere in. Pellentesque id nisi imperdiet, vehicula libero et, posuere ligula. Vivamus id aliquet eros, eu varius neque. Morbi sed tristique mauris. Sed accumsan semper fermentum. Aenean et lacus feugiat, placerat nisi a, tempor augue.</p>
+				<img class="article__img" src="img/comida-vegana-230x130.jpg" alt="">
+		</div>
+		
+		<div class="article article--green">
+			<h2 class="article__title">Mermeladas</h2>
+				<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend viverra convallis. In consectetur leo bibendum velit pellentesque facilisis. Maecenas laoreet bibendum lacus, rutrum egestas nisi posuere in. Pellentesque id nisi imperdiet, vehicula libero et, posuere ligula. Vivamus id aliquet eros, eu varius neque. Morbi sed tristique mauris. Sed accumsan semper fermentum. Aenean et lacus feugiat, placerat nisi a, tempor augue.</p>
+				<img class="article__img" src="img/MIEL-DE-ABEJA-230x130.png" alt="">
+		</div>
+
+	</section>
+
+	<footer class="pie">
+		<p class="pie__item--center">
+			Create by Someone
+		</p>
+	</footer>
 
 </body>
 </html>
